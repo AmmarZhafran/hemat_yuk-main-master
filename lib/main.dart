@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF235789)),
           useMaterial3: true,
           textTheme: GoogleFonts.poppinsTextTheme()),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
